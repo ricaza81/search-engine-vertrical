@@ -44,7 +44,7 @@ $ npm install
 
 $ npm start
 
-### note: if you have the default port >>> localhost:3000 >> edit the package.json in line >>> "start": "react-scripts start", and update for >>> "set PORT=3200 && react-scripts start",
+### note: if you default port is bussy >>> localhost:3000 >> edit the package.json in line >>> "start": "react-scripts start", and update for >>> "set PORT=3200 && react-scripts start",
 
 
 
