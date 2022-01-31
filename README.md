@@ -8,6 +8,10 @@
 
 ## Requirements
 
+![img1](Vertrical_Instructions_Coding_Challenge.pdf)
+
+## Requirements
+
 ![img1](demo/img1.png)
 
 <p>&nbsp;</p> 
