@@ -1,4 +1,4 @@
-<h1 align = "center">Google Search clone</h1>
+<h1 align = "center">Search Engine React JS</h1>
 
 <p>&nbsp;</p> 
 
