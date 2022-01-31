@@ -2,10 +2,11 @@
 
 <p>&nbsp;</p> 
 
-<p align="center">A  <strong>Google Search Engine Clone</strong> that is built using the React js and google search api.</p>
+<p align="center">A  <strong>Search Engine React JS</strong> that is built using the React js and google search api.</p>
 
 <p>&nbsp;</p> 
 
+## Requirements
 
 ![img1](demo/img1.png)
 
