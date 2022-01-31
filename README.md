@@ -23,6 +23,7 @@
 <p>&nbsp;</p> 
 <p>&nbsp;</p> 
 
+<!--
 ####  Deployed on firebase:
 
 LIve Link: https://search-engine-cb6e7.web.app/
@@ -32,6 +33,7 @@ LIve Link: https://search-engine-cb6e7.web.app/
 ### Getting started
 
 ```
+-->
 
 
 $ git clone https://github.com/ricaza81/search-engine-vertrical
