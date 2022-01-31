@@ -35,6 +35,9 @@ LIve Link: https://search-engine-cb6e7.web.app/
 ```
 -->
 
+## Deploy Firebase (GCP)
+<a href="https://hackernoon.com/how-to-deploy-a-react-application-with-firebase-hosting-p92m37b7">Deploy</a>
+firebase login
 
 $ git clone https://github.com/ricaza81/search-engine-vertrical
 
