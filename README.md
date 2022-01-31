@@ -34,7 +34,7 @@ LIve Link: https://search-engine-cb6e7.web.app/
 ```
 
 
-$ git clone https://github.com/Maheshoo7/Google-search-clone.git
+$ git clone https://github.com/ricaza81/search-engine-vertrical
 
 $ cd google-search-clone/
 
