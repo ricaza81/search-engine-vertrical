@@ -18,6 +18,8 @@
 
 ![img3](demo/img3.png)
 
+![img](https://github.com/ricaza81/search-engine-vertrical/raw/master/img3.png)
+
 <p>&nbsp;</p> 
 <p>&nbsp;</p> 
 
