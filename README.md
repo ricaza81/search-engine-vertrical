@@ -8,7 +8,7 @@
 
 ## Requirements
 
-![img1](Vertrical_Instructions_Coding_Challenge.pdf)
+![](Vertrical_Instructions_Coding_Challenge.pdf)
 
 ## Requirements
 
