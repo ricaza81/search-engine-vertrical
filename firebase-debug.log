@@ -1,0 +1,109 @@
+[debug] [2022-01-31T04:52:21.501Z] ----------------------------------------------------------------------
+[debug] [2022-01-31T04:52:21.503Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-01-31T04:52:21.503Z] CLI Version:   10.1.2
+[debug] [2022-01-31T04:52:21.503Z] Platform:      win32
+[debug] [2022-01-31T04:52:21.504Z] Node Version:  v14.15.4
+[debug] [2022-01-31T04:52:21.505Z] Time:          Sun Jan 30 2022 23:52:21 GMT-0500 (hora estándar de Colombia)
+[debug] [2022-01-31T04:52:21.505Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-31T04:52:21.567Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-31T04:52:21.567Z] > authorizing via signed-in user (ricaza81@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Ricardo Zambrano\2022\Google-search-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2022-01-31T04:54:34.248Z] ----------------------------------------------------------------------
+[debug] [2022-01-31T04:54:34.250Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:searchenginevertrical
+[debug] [2022-01-31T04:54:34.251Z] CLI Version:   10.1.2
+[debug] [2022-01-31T04:54:34.251Z] Platform:      win32
+[debug] [2022-01-31T04:54:34.251Z] Node Version:  v14.15.4
+[debug] [2022-01-31T04:54:34.252Z] Time:          Sun Jan 30 2022 23:54:34 GMT-0500 (hora estándar de Colombia)
+[debug] [2022-01-31T04:54:34.252Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-31T04:54:34.316Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-31T04:54:34.316Z] > authorizing via signed-in user (ricaza81@gmail.com)
+[debug] [2022-01-31T04:54:34.316Z] [iam] checking project searchenginevertrical for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-01-31T04:54:34.319Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-01-31T04:54:34.319Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-31T04:54:34.653Z] <<< HTTP RESPONSE 200 {"date":"Mon, 31 Jan 2022 04:54:34 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-31T04:54:34.726Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/searchenginevertrical:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-01-31T04:54:35.197Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 31 Jan 2022 04:54:35 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=218","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-31T04:54:35.198Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project searchenginevertrical:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2022-01-31T04:54:35.199Z] > refreshing access token with scopes: []
+[debug] [2022-01-31T04:54:35.199Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-31T04:54:35.500Z] <<< HTTP RESPONSE 200 {"date":"Mon, 31 Jan 2022 04:54:35 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-31T04:54:36.575Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/searchenginevertrical [none]
+[debug] [2022-01-31T04:54:37.117Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/searchenginevertrical 403
+[debug] [2022-01-31T04:54:37.117Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/searchenginevertrical {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-01-31T04:54:37.117Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-01-31T04:54:37.388Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async getFirebaseProject (C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async getDefaultHostingSite (C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\getDefaultHostingSite.js:8:21)
+    at async requireHostingSite (C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
+    at async Object.fn (C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\deploy.js:73:9)
+    at async C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:188:17
+[error] 
+[error] Error: Failed to get Firebase project searchenginevertrical. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-01-31T04:57:17.334Z] ----------------------------------------------------------------------
+[debug] [2022-01-31T04:57:17.336Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --token 
+[debug] [2022-01-31T04:57:17.336Z] CLI Version:   10.1.2
+[debug] [2022-01-31T04:57:17.336Z] Platform:      win32
+[debug] [2022-01-31T04:57:17.336Z] Node Version:  v14.15.4
+[debug] [2022-01-31T04:57:17.338Z] Time:          Sun Jan 30 2022 23:57:17 GMT-0500 (hora estándar de Colombia)
+[debug] [2022-01-31T04:57:17.338Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-31T04:57:17.397Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-31T04:57:17.398Z] > authorizing via signed-in user (ricaza81@gmail.com)
+[debug] [2022-01-31T04:57:17.398Z] [iam] checking project searchenginevertrical for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-01-31T04:57:17.400Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-01-31T04:57:17.400Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-31T04:57:17.715Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Mon, 31 Jan 2022 04:57:17 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-31T04:57:18.800Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/searchenginevertrical:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-01-31T04:57:19.507Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 31 Jan 2022 04:57:19 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=455","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-31T04:57:19.508Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project searchenginevertrical:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2022-01-31T04:57:19.509Z] > refreshing access token with scopes: []
+[debug] [2022-01-31T04:57:19.509Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-31T04:57:19.812Z] <<< HTTP RESPONSE 200 {"date":"Mon, 31 Jan 2022 04:57:19 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-31T04:57:20.064Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/searchenginevertrical [none]
+[debug] [2022-01-31T04:57:20.623Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/searchenginevertrical 403
+[debug] [2022-01-31T04:57:20.623Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/searchenginevertrical {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-01-31T04:57:20.623Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-01-31T04:57:20.932Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async getFirebaseProject (C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async getDefaultHostingSite (C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\getDefaultHostingSite.js:8:21)
+    at async requireHostingSite (C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
+    at async Object.fn (C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\deploy.js:73:9)
+    at async C:\Users\Ricardo Zambrano\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:188:17
+[error] 
+[error] Error: Failed to get Firebase project searchenginevertrical. Please make sure the project exists and your account has permission to access it.

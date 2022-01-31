@@ -23,17 +23,17 @@
 <p>&nbsp;</p> 
 <p>&nbsp;</p> 
 
-<!--
+
 ####  Deployed on firebase:
 
-LIve Link: https://search-engine-cb6e7.web.app/
+LIve Link: https://searchenginevertrical.firebaseapp.com/
 
 <p>&nbsp;</p> 
 
 ### Getting started
 
 ```
--->
+
 
 ## Deploy Firebase (GCP)
 <a href="https://hackernoon.com/how-to-deploy-a-react-application-with-firebase-hosting-p92m37b7">Deploy</a>
