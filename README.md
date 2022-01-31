@@ -8,7 +8,8 @@
 
 ## Requirements
 
-![img](https://github.com/ricaza81/ricaza81-react-native-chiper/raw/master/browser.gif) (Vertrical_Instructions_Coding_Challenge.pdf)
+![img](Vertrical_Instructions_Coding_Challenge.pdf)
+<a href="(Vertrical_Instructions_Coding_Challenge.pdf)" target="_blank">PDF</a>
 
 ## Requirements
 
