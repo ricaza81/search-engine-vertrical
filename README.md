@@ -2,7 +2,7 @@
 
 <p>&nbsp;</p> 
 
-<p align="center">A  <strong>Search Engine React JS <br> <a href="https://vertrical.com/" style="font-size:40px;">Vertrical</a> Coding Challenge</strong> that is built using the React js and google search api.</p>
+<p align="center">A  <strong>Search Engine React JS <br> <a href="https://vertrical.com/"><span style="font-size:40px;">Vertrical</span></a> Coding Challenge</strong> that is built using the React js and google search api.</p>
 
 <p>&nbsp;</p> 
 
