@@ -8,8 +8,8 @@
 
 ## Requirements
 
-![img](Vertrical_Instructions_Coding_Challenge.pdf)
-<a href="(Vertrical_Instructions_Coding_Challenge.pdf)" target="_blank">PDF</a>
+<!--![img](Vertrical_Instructions_Coding_Challenge.pdf)-->
+<a href="Vertrical_Instructions_Coding_Challenge.pdf" target="_blank">PDF</a>
 
 ## Requirements
 
